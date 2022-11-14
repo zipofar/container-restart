@@ -8,7 +8,7 @@ const HOST = "0.0.0.0";
 const app = express();
 app.get("/", (_, res) => {
   console.log("request to /");
-  res.send("Hello World ver 3");
+  res.send("Hello ver 4");
 });
 
 app.get("/exit", () => {
