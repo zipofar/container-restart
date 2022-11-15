@@ -7,7 +7,7 @@ x-uffizzi:
 
 services:
   app:
-    build: .
+    build: https://github.com/fedorov-dualboot/container-restart
     ports:
       - "8000:8000"
     restart: always
