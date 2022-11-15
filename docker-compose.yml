@@ -7,7 +7,9 @@ x-uffizzi:
 
 services:
   app:
-    build: https://github.com/fedorov-dualboot/container-restart
+    build: 
+      context: https://github.com/fedorov-dualboot/container-restart
+      dockerfile: /Dockerfile
     ports:
       - "8000:8000"
     restart: always
